@@ -19,9 +19,9 @@ database = get_database_config().get('DATABASE_NAME')
 sql_track_modifications = get_database_config().get('SQLALCHEMY_TRACK_MODIFICATIONS')
 
 app.config["SQLALCHEMY_DATABASE_URI"] = 'mysql+pymysql://'+user+'@'+ host+ '/' + database
-p.config["SQLALCHEMY_DATABASE_URI"] = 'mysql+pymysql://root@localhost/biblioteca'app.config["SQLALCHEMY_TRACK_MODIFICATIONS"] = sql_track_modifications
 
-init_app(app)
+
+init_app
 
 # Blueprints
 #app.register_blueprint()
