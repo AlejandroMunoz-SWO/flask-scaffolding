@@ -1,0 +1,10 @@
+PASOS PARA INSTALAR EL SCAFFOLDING DEL PROYECTO
+
+1 Eliminar la carpeta venv y crear un entorno virtual nuevo
+2 Instalar las librerías:
+    pip install flask flask-sqlalchemy flask-marshmallow marshmallow-sqlalchemy mysqlclient mysql-client pymysql python-dotenv flask-cors
+
+3 Crear una base de datos llamada prueba
+
+3 Verificar la instalación:
+    Levantar el server y verificar que se imprime por la consola el usuario, el server y el nombre de la base de datos
