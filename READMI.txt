@@ -10,3 +10,5 @@ PASOS PARA INSTALAR EL SCAFFOLDING DEL PROYECTO
 
 3 Verificar la instalación:
     Levantar el server y verificar que se imprime por la consola el usuario, el server y el nombre de la base de datos
+    
+4 Las carpetas de __pycache__ se pueden eliminar
