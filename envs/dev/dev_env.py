@@ -9,7 +9,8 @@ class DevConfig:
 
 
 config = {
-    'dev': DevConfig
+    'dev': DevConfig,
+    'SECRET_KEY': os.getenv('SECRET_KEY')
 }
 
 
